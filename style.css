@@ -1,0 +1,106 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#wrapper {
+  box-sizing: border-box;
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff9800;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #bdbdbd;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+#guess {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff9800;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#guessField {
+  color: #000;
+  width: 100%;
+  height: 40px;
+  font-size: 28px;
+  border: 2px solid #ff9800;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#subt {
+  background-color: #ff9800;
+  color: #ffffff;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#subt:hover {
+  background-color: #e68a00;
+}
+
+.resultParas {
+  font-size: 18px;
+}
+
+.guesses,
+.lastResult,
+.lowOrHi {
+  display: block;
+  margin: 10px 0;
+}
+
+.guesses,
+.lastResult {
+  font-weight: bold;
+}
+
+.guesses {
+  color: #ffeb3b;
+}
+
+.lastResult {
+  color: #f44336;
+}
+
+.lowOrHi {
+  font-style: italic;
+  color: #ffeb3b;
+  font-size: 18px;
+}
